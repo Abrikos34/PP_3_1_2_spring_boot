@@ -41,3 +41,9 @@ node_modules/
 
 # Исключение для pom.xml
 !pom.xml
+
+# Исключение для README.md
+!README.md
+
+# Исключение для src/
+!src/
