@@ -5,11 +5,11 @@
 
 # Логи
 /logs/
-/*.log
+*.log
 
 # IntelliJ IDEA
 /.idea/
-/*.iml
+*.iml
 /out/
 
 # Mac OS X
@@ -24,23 +24,20 @@ ehthumbs.db
 
 # Gradle
 .gradle/
-/build/
-/!gradle-wrapper.jar
+build/
 
 # Spring Boot
-/target/
-/*.log
-/.mvn
-/.settings/
-
-# MySQL
-*.sql
-*.db
-
-# Node.js (если используется для front-end)
-node_modules/
+target/
+.mvn/
+.settings/
 
 # Конфиденциальные файлы
 *.env
 application.properties
 db.properties
+
+# Node.js (если используется)
+node_modules/
+
+# Исключение для pom.xml
+!pom.xml
