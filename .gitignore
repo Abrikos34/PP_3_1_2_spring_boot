@@ -1,0 +1,46 @@
+# Java и компилированные файлы
+*.class
+*.war
+*.jar
+
+# Логи
+/logs/
+/*.log
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+
+# Mac OS X
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+
+# Gradle
+.gradle/
+/build/
+/!gradle-wrapper.jar
+
+# Spring Boot
+/target/
+/*.log
+/.mvn
+/.settings/
+
+# MySQL
+*.sql
+*.db
+
+# Node.js (если используется для front-end)
+node_modules/
+
+# Конфиденциальные файлы
+*.env
+application.properties
+db.properties
