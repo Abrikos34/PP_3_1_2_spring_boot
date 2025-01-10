@@ -52,3 +52,7 @@ node_modules/
 
 # Исключение для .gitattributes
 .gitattributes
+build.gradle
+gradlew
+gradlew.bat
+settings.gradle
